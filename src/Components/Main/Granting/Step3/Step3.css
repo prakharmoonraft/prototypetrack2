@@ -1,0 +1,158 @@
+.fa-arrow-left:before {
+  content: "\f060";
+  margin-right: 14px;
+}
+
+.fa-arrow-right:before {
+  content: "\f061";
+  margin-left: 14px;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0px !important;
+}
+
+
+.line-behind-oval-blue-3 {
+  width: 66%;
+  border-top: solid 2px #007b8d;
+  position: static;
+  margin: -2px 0px 0px 0px;
+  }
+
+.mt-60{
+  margin-top: 60px;
+}
+
+.if_write_126582 {
+  width: 12px;
+  height: 12px;
+}
+
+.Values-5000-3 {
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  position: relative;
+  left: 12px;
+  color: #707070;
+}
+
+.Categories-3{
+font-family: HelveticaNeueLight;
+font-size: 13px;
+letter-spacing: 0.4px;
+text-align: center;
+color: #00253b !important;
+}
+
+.Categories-3-s{
+  font-family: HelveticaNeueLight;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #00253b !important;
+  }
+
+  @media (max-width: 575.98px) {
+    
+.Line-g {
+  display: none;
+}
+
+/* .line-behind-oval-blue {
+  width: 80px;
+  
+  position: static;
+  margin: -2px 0px 0px 50px;
+} */
+
+/* .line-behind-oval-blue-3 {
+  width: 160px;
+  } */
+  
+
+
+.stepper-media {
+  padding: 0px 26px !important;
+}
+
+  .col-4 {
+    max-width: 100%;
+  }
+
+  
+}
+
+@media (min-width: 576px) and (max-width: 768.98px)  
+{
+  .stepper-media {
+    padding: 0px 26px !important;
+  }
+
+
+
+  .Investment-Preferenc {
+ 
+    margin-left: 0px;
+}
+
+.TotalValuesEnd {
+  left: 20px;
+}
+  
+}
+@media (min-width: 768px) and (max-width: 867.98px) {
+
+
+  /* .line-behind-oval-blue-3 {
+    width: 150px;
+} */
+}
+
+@media (min-width: 868px) and (max-width: 1199.98px) {
+
+  /* .line-behind-oval-blue-3 {
+    width: 200px;
+} */
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+
+  .Rectangle-6 {
+    border-radius: 12px;
+    background-color: #e2e2e2;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+   
+
+  /* .line-behind-oval-blue {
+    width: 80px;
+  } */
+
+
+  .BorderRadius {
+    width: 260px;
+  }
+}
+
+
+
+@media (min-width: 1500px) {
+  /* .line-behind-oval-blue-3 {
+    width: 350px;
+  } */
+}
+
+@media (min-width: 1400px) and (max-width: 1499.98px){
+/* .line-behind-oval-blue-3 {
+  width: 300px;
+} */
+}

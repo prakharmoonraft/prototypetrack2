@@ -1,0 +1,374 @@
+
+tr.hr-line td hr {
+    margin-left: 4%;
+    margin-right: 6%;
+}
+.Oval-9 {
+    width: 53px;
+    height: 53px;
+    background-color: #007b8d !important;
+    border-radius: 50%;
+    } 
+
+.line-behind-oval-blue-su3 {
+    width: 334px;
+    margin-top: 27px;
+    border-top: solid 2px #007b8d;
+    position: static;
+    /* margin: -31px 0px 0px 50px; */
+}   
+.Oval-9-outer {
+    width: 77px;
+    height: 77px;
+    background-color: #94e4df;
+    border-radius: 50%;
+    margin: -9px;
+    padding:1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 0 0 6px 3px rgba(180, 180, 180, 0.13) !important;
+  }
+
+.Oval-9-center {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;    
+    margin:6px;
+    padding:1px;
+    background-color: #5cdad2 !important;
+}
+
+.Oval-9-Gradient {
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    margin:5px;
+    background-image: linear-gradient(225deg, #007b8d, #20dac8) !important;
+}
+
+.Heading-su3 {
+    font-family: HelveticaNeueLight;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.43;
+    color: #002639;
+}
+.Value-su3 {
+    font-family: HelveticaNeueLight;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.43;
+    color: #707070;
+}
+.Oval-11-su1 {
+    padding: 5px 8px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: linear-gradient(225deg, #007b8d, #20dac8);
+}
+
+.Space-su3 {
+    margin: 22px;
+}
+
+
+.Percentage-Input-su3-1 {
+    /* position: absolute;
+    bottom: 270px;
+    left: 775px; */
+    font-weight: 100;
+}
+.Percentage-Input-su3-2 {
+    /* position: absolute;
+    bottom: 207px;
+    left: 775px; */
+    font-weight: 100;
+}
+.Percentage-Input-su3-3 {
+    /* position: absolute;
+    bottom: 144px;
+    left: 775px; */
+    font-weight: 100;
+}
+.Percentage-Input-su3-4 {
+    /* position: absolute;
+    bottom: 81px;
+    left: 775px; */
+    font-weight: 100;
+}
+.table_line{
+    position: relative;
+    bottom: 49px;
+    left: 48px;
+    width: calc(100% - 115px);
+    height: 1px;
+    border: solid 0.5px #ebebeb;
+}
+.Percentage-Input-su3-5 {
+    /* position: absolute;
+    bottom: 19px;
+    left: 772px; */
+    font-weight: 100;
+}
+.Line-su1-su3 {
+    width: 1093px;
+    border: solid 0.5px #ebebeb;
+    float: right;
+    margin-top: 17px;
+}
+.Line-4-su3 {
+    width: calc(100% - 215px);
+    border: solid 0.5px #ebebeb;
+    margin-top: 14px;
+    float: right;
+}
+.Line-4-su3-2 {
+    width: calc(100% - 195px);
+    border: solid 0.5px #ebebeb;
+    margin-top: 13px;
+    float: right;
+}
+
+@media (max-width: 575.98px) {
+    .Line-su1, .Line-su1-su3, .Line-4-su3, .Line-4-su3-2, .Line-4-su1-2, .table_line {
+        display: none;
+    }
+    .line-behind-oval-blue-su3 {
+        width: 182px;       
+    }    
+    .mar-bottom {
+        margin-bottom: 11px;
+    }
+    .account {
+        margin-top: -34px;
+    }
+    .Percentage-Input-su3-1 {
+        position: unset;
+    }
+    .Percentage-Input-su3-2 {
+        position: unset;
+    }
+    .Percentage-Input-su3-3 {
+        position: unset;
+    }
+    .Percentage-Input-su3-4 {
+        position: unset;
+    }
+    
+ }
+ @media (min-width:576px)  and (max-width: 767.99px)
+ {
+    .Line-su1, .Line-su1-su3, .Line-4-su3, .Line-4-su3-2, .Line-4-su1-2, .table_line {
+        display: none;
+    }
+    /* .line-behind-oval-su1 {
+        width: 203px;
+    } */
+    .Line-4-su1 {
+        display: none;
+    }
+    .font-tab {
+        font-size: 11.5px !important;
+    }
+    .Your-Grant-Dashboard {
+        font-size: 30px;
+    }
+ }
+@media (min-width: 768px) and (max-width: 859.98px) {
+    /* .Percentage-Input-su3-1 {
+        position: absolute;
+        bottom: 372px;
+        left: 495px;
+    }
+    .Percentage-Input-su3-2 {
+        position: absolute;
+        bottom: 267px;
+        left: 495px;
+    }
+    .Percentage-Input-su3-3 {
+        position: absolute;
+        bottom: 182px;
+        left: 495px;
+    }
+    .Percentage-Input-su3-4 {
+        position: absolute;
+        bottom: 95px;
+        left: 495px;
+    }
+    .Percentage-Input-su3-5 {
+        position: absolute;
+        bottom: 30px;
+        left: 492px;
+    } */
+    .Oval-11-su1 {
+        padding: 8px 10px;
+    }
+    /* .Line-su1, .Line-4-su3, .Line-4-su3-2*/
+    .Line-su1-su3, {
+        display: none;
+    }
+    .font-tab {
+        font-size: 13.5px;
+    }
+    Your-Grant-Dashboard {        
+        font-size: 30px;
+        font-weight: 600;       
+    }
+    .line-behind-oval-blue-su3 {
+        width: 242px;       
+    }
+}
+@media (min-width: 860px) and (max-width: 1199.98px) {
+    /* .Percentage-Input-su3-1 {
+        position: absolute;
+        bottom: 270px;
+        left: 760px;
+    }
+    .Percentage-Input-su3-2 {
+        position: absolute;
+        bottom: 200px;
+        left: 760px;
+    }
+    .Percentage-Input-su3-3 {
+        position: absolute;
+        bottom: 135px;
+        left: 760px;
+    }
+    .Percentage-Input-su3-4 {
+        position: absolute;
+        bottom: 70px;
+        left: 760px;
+    }
+    .Percentage-Input-su3-5 {
+        position: absolute;
+        bottom: 22px;
+        left: 757px;
+    } */
+    .Oval-11-su1 {
+        padding: 8px 10px;
+    }
+    /* .Line-su1, .Line-4-su3, .Line-4-su3-2*/
+    .Line-su1-su3, {
+        display: none;
+    }
+    .font-tab {
+        font-size: 13.5px;
+    }
+    Your-Grant-Dashboard {        
+        font-size: 30px;
+        font-weight: 600;       
+    }
+    .line-behind-oval-blue-su3 {
+        width: 242px;       
+    }
+}
+
+@media (min-width: 1300px) {
+    /* .Line-4-su3{
+      width: 915px;
+    } */
+    /* .Line-4-su3-2{
+      width: 930px;
+    }  */
+    /* .Percentage-Input-su3-1 {
+        bottom: 243px;
+        left: 900px;
+    }
+    .Percentage-Input-su3-2 {
+        bottom: 175px;
+        left: 900px;
+    }
+    .Percentage-Input-su3-3 {
+        bottom: 110px;
+        left: 900px;
+    }
+    .Percentage-Input-su3-4 {
+        bottom: 110px;
+        left: 900px;
+    }      */
+    /* .table_line{
+        width: 911px;
+    } */
+    /* .Percentage-Input-su3-5 {
+        bottom: 25px;
+        left: 897px;
+    }  */
+}
+
+
+@media (min-width: 1400px) and (max-width: 1499.98px){
+    /* .Line-4-su3{
+        width: 770px;
+    } */
+    /* .Line-4-su3-2{
+        width: 790px;
+    }  */
+    /* .Percentage-Input-su3-1 {
+        bottom: 243px;
+        left: 838px;
+    }
+    .Percentage-Input-su3-2 {
+        bottom: 175px;
+        left: 838px;
+    }
+    .Percentage-Input-su3-3 {
+        bottom: 110px;
+        left: 838px;
+    }
+    .Percentage-Input-su3-4 {
+        bottom: 110px;
+        left: 838px;
+    }      */
+    /* .table_line{
+        width: 910px;
+    } */
+    /* .Percentage-Input-su3-5 {
+        bottom: 25px;
+        left: 838px;
+    }  */
+    .Percentage-su1-per {       
+        position: relative;
+        left: 60px;
+    }
+}
+
+
+@media (min-width: 1500px){
+    /* .Line-4-su3{
+        width: 915px;
+    } */
+    /* .Line-4-su3-2{
+        width: 930px;
+    }  */
+    /* .Percentage-Input-su3-1 {
+        bottom: 243px;
+        left: 985px;
+    }
+    .Percentage-Input-su3-2 {
+        bottom: 175px;
+        left: 985px;
+    }
+    .Percentage-Input-su3-3 {
+        bottom: 110px;
+        left: 985px;
+    }
+    .Percentage-Input-su3-4 {
+        bottom: 110px;
+        left: 985px;
+    }      */
+    /* .table_line{
+        width: 1080px;
+    } */
+    /* .Percentage-Input-su3-5 {
+        bottom: 25px;
+        left: 985px;
+    }  */
+    .Percentage-su1-per {       
+        position: relative;
+        left: 80px;
+    }
+
+}

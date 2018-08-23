@@ -1,0 +1,274 @@
+.Summary-Padding{  
+  margin-top: 48.7;
+}
+
+.Summary-top{  
+  margin-top: 43.3px;
+}
+
+.Padding-btwn-sum{
+  margin-top: 48.7px !important;
+}
+
+.sum-val {
+  font-family: HelveticaNeueLight;
+  font-size: 12px;
+  line-height: 1.43;
+  color: #002738
+}
+.Value-yes{
+  font-family: HelveticaNeueLight;
+  font-size: 11px;
+  letter-spacing: 1px;
+  line-height: 1.43;
+  color: #707070;
+}
+.Value-su3-81 {
+  font-family: HelveticaNeueLight;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.43;
+  color: #818181;
+}
+
+.topMargin{
+  margin-top: 16px;
+  margin-bottom:  24px;
+  text-align: left;
+}
+
+.wrap{
+  white-space:nowrap !important;
+}
+.ml-24{
+  margin-left: 24px !important;
+  margin-right: 24px !important;
+}
+
+.Line-g {
+  width: 778px;
+  border: solid px #ebebeb;
+  float: right;
+  margin-top: 28px;
+}
+
+.Line-gd {
+  width: calc(100% - 152px);
+  border: solid .5px #ebebeb;
+  float: right;
+  margin-top: 13px;
+}
+
+.Line-s {
+  width: calc(100% - 181px);
+  border: solid .5px #ebebeb;
+  float: right;
+  margin-top: 13px;
+}
+
+.Line-yp{
+  width: calc(100% - 208px);
+  border: solid .5px #ebebeb;
+  float: right;
+  margin-top: 13px;
+}
+
+.i{
+  width: 12px;
+  height: 12px;
+  font-family: Ahellya;
+  font-size: 10px;
+  font-style: italic;
+  letter-spacing: 0.4px;
+  color: #ffffff;  
+}
+
+.al-r{
+  text-align: right;
+}
+
+.al-l{
+  text-align: left;
+}
+.Grant-Details {
+  font-family: HelveticaNeue;
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 1.04;
+  letter-spacing: 0.5px;
+  color: #00243d;
+}
+
+.Grant-Amount {
+  font-family: HelveticaNeueMedium;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #002738;
+}
+
+.Account-advisor-name {
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  color: #00263a;
+}
+
+.layer-per-4{
+  font-family: HelveticaNeue;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    padding: 0px 50px 0px 13px;
+    text-align: center;
+    color: #818181;
+    position: relative;
+    bottom: 3px;
+    left: 103px;
+}
+/*Ovals*/
+
+
+.line-behind-oval-blue-4 {
+  width: 100%;
+  border-top: solid 2px #007b8d;
+  position: static;
+  margin: -2px 0px 0px 0px;
+  }
+
+/*Ovals*/
+
+
+@media (max-width: 575.98px) {
+
+  /* .line-behind-oval-blue-4 {
+    width: 240px;
+    border-top: solid 2px #007b8d ;
+    position: static;
+    margin: -2px 0px 0px 50px;
+  } */
+
+  .Line-gd {
+    display: none;
+  }
+
+  .Line-s {
+    display: none;
+  }
+
+  .Line-yp {
+    display: none;
+  }
+
+  
+  .pt-576{
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.89px)  
+{
+  /* .line-behind-oval-blue-4 {
+    width: 351px;
+  } */
+  .Line-gd {
+    display: none;
+  }
+  
+  .Line-s {
+    display: none;
+  }
+  
+  .Line-yp {
+    display: none;
+  }
+  .pt-576{
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279.98px)  
+{
+
+  /* .Line-gd {
+    display: none;
+  } */
+  
+  /* .Line-s {
+    display: none;
+  } */
+  
+  /* .Line-yp {
+    display: none;
+  } */
+  /* .Line-4-T {
+    width: 475px;
+  } */
+}
+
+@media (min-width: 768px) and (max-width: 867.98px) {
+  /* .line-behind-oval-blue-4 {
+    width: 225px;
+  } */
+
+}
+
+@media (min-width: 868px) and (max-width: 1199.98px) {
+  /* .line-behind-oval-blue-4 {
+    width: 325px;
+  } */
+
+}
+
+@media (min-width: 1500px) {
+  /* .line-behind-oval-blue-4 {
+    width: 335px;
+  } */
+  /* .line-behind-oval {    
+    width: 490px;
+    margin: -31px 0px 0px 100px;
+  }   */
+  /* .Line-4-T {
+    width: 970px;
+  } */
+  /* .Line-gd {
+    width: 955px;
+  }  */
+  /* .Line-s {
+    width: 925px;
+  } */
+  /* .Line-yp {
+    width: 895px;
+  } */
+}
+
+@media (min-width: 1400px) and (max-width: 1499.98px){
+  /* .Line-4-T {
+    width: 925px;
+  } */
+  /* .Line-gd {
+    width: 820px;
+  }  */
+  /* .Line-s {
+    width: 790px;
+  } */
+  /* .Line-yp {
+    width: 760px;
+  } */
+  /* .line-behind-oval-blue-4 {
+    width: 410px;
+  } */
+  .layer-per-4{
+    font-family: HelveticaNeue;
+      font-size: 12px;
+      letter-spacing: 0.4px;
+      padding: 0px 50px 0px 13px;
+      text-align: center;
+      color: #818181;
+      position: relative;
+      bottom: 3px;
+      left: 122px;
+  }
+
+}

@@ -1,0 +1,839 @@
+/******************** NEW CONCEPT **********enq_h@camsonline.com**********/
+/*Top section*/
+.heading {
+  font-family: HelveticaNeueLight;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #9b9b9b;
+}
+.headingName{
+  font-family: HelveticaNeueLight;
+  font-size: 36px;
+  letter-spacing: 1.2px;
+  color: #017e8f;
+}
+.headingNumber  {
+  font-family: HelveticaNeueMedium;
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  color: #4a4a4a;
+}
+.View_Suggestion {
+  text-align: center;
+  padding-top: 12.5px;
+  width: 300px;
+  height: 50px;
+  background-image: linear-gradient(261deg, #007b8d, #20dac8);
+}
+.View_Suggestion_Text {
+  font-family: HelveticaNeueMedium;
+  color: white;
+  letter-spacing: 1.6px;
+}
+.arrow_right_NC {
+  width: 16px;
+  margin-left: 10px;
+  margin-bottom: 4px;
+}
+
+
+/***********BOX**********/
+.Whole_Shadow{
+  box-shadow: 0 4px 36px 0 rgba(0,0,0,0.2);
+}
+.RectangleBlue {
+  /* width: 227px; */
+  height: 200px;
+  background-image: linear-gradient(235deg, #007b8d, #20dac8);
+}
+.RectangleWhite {
+  width: 50%;
+  height: 200px;
+  background-color: #ffffff;
+  border: solid 0.5px#dddddd;
+  border-right: none;
+  border-top: none;
+}
+
+/*AFTER MAC CHECK ON EUGENE*/
+/* .RectangleBlue {
+  width: 224.5px;
+  height: 200px;
+  background-image: linear-gradient(235deg, #007b8d, #20dac8);
+}
+.RectangleWhite {
+  width: 224px;
+  height: 200px;
+  background-color: #ffffff;
+  border: solid 0.5px#dddddd;
+  border-right: none;
+  border-top: none;
+} */
+
+
+/*Normal box design*/
+.BoxTitle{
+  font-family: HelveticaNeueLight;
+  font-size: 115%;
+  line-height: 1.43;
+  letter-spacing: 2px;
+  color: #4a4a4a;    
+  padding: 2rem;
+}
+.BoxValue {
+  font-family: HelveticaNeueThin;
+  font-size: 200%;
+  letter-spacing: 2px;
+  color: #007b8e;
+  padding: 1.7rem 0rem 0rem 2rem;
+  font-weight: 600;
+}
+.BoxAdd {
+  margin: 60px 90px 45px 90px;
+  width: 35px;
+}
+.BoxAdd-title {
+  font-family: HelveticaNeueThin;
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #007b8d;
+  font-weight: 600;
+}
+
+/*Click Box Design*/
+.BoxContentPadding{  
+  padding-left: 30px;
+}
+.BoxHoverBlue.d-hidden{
+  visibility: hidden;
+  display: inline-block;
+  height: 0px;
+  width: 0%;
+  z-index: 1;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+  background-image: linear-gradient(235deg, #007b8d, #20dac8);
+  position: absolute;
+  /* -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+   /* transition: width 2s, height 4s; */
+  top: 0;
+  z-index: 1;
+}
+.BoxHoverBlue{
+  height: 350px;
+  width: 93.3%;
+  z-index: 1;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+  background-image: linear-gradient(235deg, #007b8d, #20dac8);
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.BoxHoverBlue.d-show{
+  height: 350px;
+  transition: width 0.7s, height 0.5s ease-in;
+  width: 94%;
+  visibility: unset;
+}
+.BoxHoverWhite{
+  height: 350px;
+  width: 93.3%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+  background-color: #ffffff;
+}
+.BoxAddHover {
+  padding: 105px 185px;
+  font-size: 36px;
+  color: #017e8f;
+}
+.BoxClickGrant {
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  line-height: 1.43;
+  letter-spacing: 0.5px;
+  color: #4a4a4a;
+  padding-top: 30px;
+}
+.BoxClickAmount {
+  font-family: HelveticaNeue;
+  font-size: 26px;
+  color: #4a4a4a;
+}
+.BoxClickBigText {
+  padding-top: 45px;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.1px;
+  color: #4a4a4a;
+}
+.BoxClickWhiteLine{
+  margin-top: 15px;
+  width: 93%;
+  float: right;
+  opacity: 0.3;
+  border: solid 0.4px #ffffff;
+}
+.BoxClickDarkLine{
+  margin-top: 15px;
+  width: 93%;
+  float: right;
+  opacity: 0.3;
+  border: solid 0.4px #4a4a4a;
+}
+.BoxClickSmallText {
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  color: #4a4a4a;
+}
+.BoxClickArrow {
+  width: 7px;
+  opacity: 0.5;
+}
+.BoxClickRectangle {
+  width: 100%;
+  height: 50px;
+  margin-top: 13px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: #ffffff;
+  border: 0.1px solid #cecece;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+}
+.BoxClickRectangleText {
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #002738;
+}
+
+/*second section*/
+.SectionHeading {      
+  font-family: HelveticaNeueThin;
+  font-size: 48px;  
+  letter-spacing: 0.8px;
+  color: #007b8e;
+}
+.LineImpact {
+  float: right;
+  width: calc(100% - 170px);
+  border: solid 0.5px#dadada;
+  margin-top: 37px;
+}
+.Youve-granted-a-tot {
+  font-family: HelveticaNeueThin;
+  font-size: 24px;
+  color: #022737;  
+  padding-top: 40px;
+}
+.Amount {
+  margin: -14px 0px 0px 0px;
+  font-family: HelveticaNeueLight;
+  font-size: 48px;
+  color: #afbd21;
+}
+.VIEW-DETAILS {
+  font-family: HelveticaNeueMedium;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  color: #007b8d;
+  padding-bottom: 13px;
+  /* font-weight: 600; */
+}
+.SmallLine {
+  width: 160px;
+  border: solid 0.5px#dadada;  
+  margin: 48px 0px;
+}
+
+.Youve-granted-a-tot-2 {
+  font-family: HelveticaNeueThin;
+  font-size: 24px;
+  color: #022737;  
+}
+.since-that-past-year {
+  font-family: HelveticaNeueLight;
+  font-size: 14px;
+  color: #4a4a4a;
+  margin-top: -5px;
+  letter-spacing: 0.5px;
+}
+
+  
+/*Card inside design*/ 
+.CardDesign {   
+  padding: 180px 0px 0px 0px; 
+  height: 377px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-radius: 0px;
+  width: 200%;
+}
+.CardDesignLogos {   
+  width: 20px;
+}
+.LayerPercentage {
+  opacity: 0.3;
+  font-family: HelveticaNeueLight;
+  font-size: 200%;
+  color: #022737;
+}
+.Education {
+  opacity: 0.3;
+  font-family: HelveticaNeueLight;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #000;
+}
+.if-arrow-right {
+  opacity: 0.3;
+  color: #007b8d;
+}
+.margin-14{
+  margin-left: -14px;
+}
+.card1:hover .LayerPercentage{
+  opacity: 1;
+  color: #afbd21;
+}
+.card1:hover .Education{
+  opacity: 1;
+  color: #444444;
+}
+.card1:hover .if-arrow-right{
+  opacity: 1;
+}
+
+/*on click items*/
+  /*click card CSS*/
+.ClickCardPercentage {
+  font-family: HelveticaNeueLight;
+  font-size: 28px;
+  color: #022737;
+  padding: 15px 0px 4px 0px;
+}
+.ClickCardHeading {
+  font-family: HelveticaNeue;
+  font-size: 17px;
+  line-height: 1.43;
+  letter-spacing: 0.5px;
+  color: #4a4a4a;
+}
+.ClickCardAmount {
+  font-family: HelveticaNeueLight;
+  font-size: 28px;
+  color: #9ca91d;
+  padding: 10px 0px 0px 0px;
+}
+.ClickCardLine {
+  width: 250px;
+  height: 1px;
+  border: solid 0.5px #dddddd;
+  margin: 20px 0px;
+}
+.ClickCardNumbers {
+  font-family: HelveticaNeueLight;
+  font-size: 28px;
+  color: #022737;
+}
+.ClickCardNumbersText {
+  font-family: HelveticaNeue;
+  font-size: 16.5px;
+  line-height: 1.54;
+  letter-spacing: 0.5px;
+  color: #4a4a4a;
+}
+.ClickCardArrow {
+  width: 10px;
+  height: 10px;
+  transform: rotate(-45deg);
+  color: #007b8d;
+  margin: 30px 0px 0px -15px;
+}  
+.margin-64{
+  margin-left: -64px;
+}
+.Hover1{
+  height: 100%;
+  width: 300px;
+  z-index: 1;
+  background-color: #ffffff;
+  box-shadow: -20px 0 20px -10px #e8e8e8, 20px 0 20px -10px #e8e8e8;
+  position: relative;
+  right: 75px;
+}
+.Hover2{
+  height: 100%;
+  width: 300px;
+  z-index: 1;
+  background-color: #ffffff;
+  box-shadow: -20px 0 20px -10px #e8e8e8, 20px 0 20px -10px #e8e8e8;
+  position: relative;
+  right: 75px;
+}
+.Hover3{
+  height: 100%;
+  width: 300px;
+  z-index: 1;
+  background-color: #ffffff;
+  box-shadow: -20px 0 20px -10px #e8e8e8, 20px 0 20px -10px #e8e8e8;
+  position: relative;
+  right: 75px;
+}
+.d-show{
+  display: block;
+  width:50%
+}
+.d-hidden{
+  display: none;
+}
+.d-show3C{
+  display: block;
+}
+
+
+  /*Third Section*/
+.BgGrayNC{
+  background-color: #f5f5f5;
+}
+.LineCharities {
+  float: right;
+  width: calc(100% - 210px);
+  border: solid 0.5px#dadada;
+  margin-top: 40px;
+}
+.VIEW-MORE {
+  font-family: HelveticaNeueMedium;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #007b8d;
+}
+
+
+/*Fourth section*/
+.LineHead {
+  width: calc(100% - 285px);
+  border: solid 0.5px#dadada;
+  float: right;
+  margin-top: 39px;
+}
+.icon-news{
+  width: 18px;
+  height: 18px;
+}
+.NewsHead {
+  font-family: HelveticaNeueThin;
+  font-size: 24px;
+  letter-spacing: 0.8px;
+  color: #022737;
+  margin-left: 13px;
+}
+.NewsSubHead {
+  font-family: HelveticaNeueLight;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #818181;
+  margin-left: 31px;
+}
+.LineDivider {
+  float: right;
+  width: 950px;
+  border: solid 0.5px#e6e6e6;    
+  margin-top: 17px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 575.98px) {  
+  .View_Suggestion {
+    margin-bottom: 30px;
+    width: 345px;
+  }  
+  /* .RectangleBlue {
+    width: 172px;
+  } */
+  /* .RectangleWhite {
+    width: 172px;
+  } */
+  .BoxHoverBlue.d-show {
+    width: 92%;
+  }
+  .BoxAdd {
+    margin: 60px 0px 43px 55px;
+    width: 35px;
+  }   
+  .BoxTitle{
+    /* font-size: 16px;   */
+    padding: 2rem 1rem;
+  }
+  .BoxValue {
+    /* font-size: 26px; */
+    padding: 1.5rem 0rem 0rem 1rem;
+  }
+  .BoxClickArrow {
+    margin-left: 10px;
+  }
+  .margin-14 {
+    margin-left: 0px;
+  }
+  .SectionHeading {
+    font-size: 36px;
+  }
+  .SmallLine {
+    margin: 20px 0px;
+  }
+  .since-that-past-year{
+    margin-bottom: 20px;
+  }
+  .Amount{
+    font-size: 36px;
+    margin: -10px 0px 0px 0px;
+  }
+  .CardDesign {
+    padding: 165px 0px 0px 15px;
+  }
+  .ClickCardArrow {
+    margin: 25px 0px 0px -5px;
+  } 
+  .Hover1{
+    left: 21.5px;
+  }
+  .Hover2{
+    right: 93px;
+  }
+  .Hover3{
+    right: 207.5px;
+  }
+  .LineImpact, .LineCharities, .LineHead{
+    display: none;
+  }
+  .LeftSpace{
+    padding-left: 31px;
+  } 
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {  
+  /* .RectangleBlue{
+    width: 218px;
+  } */
+  /* .RectangleWhite{
+    width: 217px;
+  } */
+  .BoxHoverBlue.d-show {
+    width: 93.5% !important;
+  }
+  .View_Suggestion {
+    margin-bottom: 30px;
+    width: 435px;
+  }
+  .BoxTitle {
+    padding: 2rem 0rem 2rem 1.2rem;
+  }
+  .BoxValue {
+    font-size: 24px;
+    padding: 1.7rem 0rem 0rem 1.2rem;
+  }
+  .BoxAdd {
+    margin: 60px 0px 45px 53px !important;
+  }  
+  .LineImpact, .LineCharities, .LineHead{
+    display: none;
+  }
+  .SmallLine {
+    margin: 30px 0px;
+  }
+  .Hover1{
+    left: 10px;
+  }
+  .Hover2{
+    right: 96px;
+  }
+  .Hover3{
+    right: 205px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 867.98px) {  
+  /* .RectangleBlue{
+    width: 158px;
+  } */
+  /* .RectangleWhite{
+    width: 157px;
+  } */
+  .BoxHoverBlue.d-show {
+    width: 92% !important;
+  }
+  .BoxTitle {
+    padding: 1.5rem 0 0 1rem;  
+  }
+  .BoxValue {
+    font-size: 24px;
+    padding: 4rem 0rem 0rem 1rem;
+  }
+  .LineImpact, .LineCharities, .LineHead{
+    display: none;
+  }
+  .headingName {
+    font-size: 30px;
+  }
+  .BoxAdd {
+    margin: 60px 0px 37px 57px;
+  } 
+  .CardDesign {
+    padding: 177px 0px 0px 15px;
+  }  
+  .Hover1 {
+    right: 1px;
+  } 
+  .Hover2 {
+    right: 100px;
+  } 
+  .Hover3 {
+    right: 196px;
+  }
+  .Education{
+    font-size: 13px;
+  }
+}
+@media (min-width: 868px) and (max-width: 1199.98px) {  
+  /* .RectangleBlue {
+    width: 220px;
+  } */
+  .Hover3 {
+    right: 120px;
+  }
+  .LineImpact, .LineCharities, .LineHead{
+    display: none;
+  } 
+  .LineDivider {
+    width: 925px;
+  }
+  .BoxValue {
+    font-size: 24px;
+  }   
+}
+
+@media (min-width: 1400px) and (max-width: 1499.98px){
+  
+  .BoxHoverBlue.d-show {
+    width: 95%;
+  }
+  .BoxAdd {
+    margin: 65px 0px 36px 104px;
+    width: 38px;
+  }
+  /* .LineImpact{
+    width: 1070px;
+  } */
+  /* .LineCharities{
+    width: 1045px;
+  } */
+  /* .LineHead{
+    width: 1000px;
+  } */
+  .LineDivider {
+    width: 950px;
+  }
+}
+
+
+
+@media (min-width: 1500px){
+  
+  .BoxHoverBlue.d-show {
+    width: 95.3%;
+  }
+  .BoxClickWhiteLine {
+    width: 95%;
+  }
+  .BoxAdd {
+    margin: 65px 0px 39px 126px;
+    width: 38px;
+  }
+  /* .LineImpact{
+    width: 1245px;
+  } */
+  /* .LineCharities{
+    width: 1215px;
+  } */
+  /* .LineHead{
+    width: 1150px;
+  } */
+  .LineDivider {
+    width: 955px;
+  }
+  .BoxHoverBlue{
+    width: 73%;
+  }
+  .BoxHoverWhite{
+    width: 73%;
+  }
+}
+
+/*
+  .LineCharities-GD{
+    width: 1140px;
+  }
+} */
+
+  /***************************************************/
+  /***************************************************/
+  /***************************************************/
+  /***************************************************/
+  /***************************************************/
+  /***********************grant dashboard*****************************/
+
+  .Your-Grant-Dashboard {
+    font-family: HelveticaNeueLight;
+    font-size: 48px;
+    letter-spacing: 1.8px;
+    color: #007a92;
+  }
+/*percentage circle*/
+.radius{
+  width: 65px;
+  height: 65px;
+}
+.circleText{
+  position: relative;
+  top: 20px;
+} 
+/* percentage circle end */
+.Grant-Per {
+  font-family: HelveticaNeueThin;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #4a4a4a;
+}
+.dollar-amount {
+  font-family: HelveticaNeueLight;
+  font-size: 36px;
+  color: #9ca91d;
+}
+
+.VIEW-ALL-GRANT-GD {
+  width: 50%;
+  height: 60px;
+  background-color: #ffffff;
+  border: solid 0.5px#c0c0c0;
+  font-family: HelveticaNeueMedium;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #002638;
+  padding-top: 20px;
+}    
+.MAKE-A-GRANT-GD {   
+  width: 50%;
+  height: 60px;
+  background-image: linear-gradient(264deg, #007b8d, #20dac8);     
+  border: solid 0.5px#c0c0c0;
+  font-family: HelveticaNeueMedium;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 20px;
+}
+
+.Education-GD {
+  font-family: HelveticaNeueLight;
+  font-size: 24px;
+  line-height: 1.04;
+  letter-spacing: 0.5px;
+  color: #00243d;
+}
+.LineCharities-GD{
+  float: right;
+  width: calc(100% - 220px);
+  border: solid 0.5px#dadada;
+  margin-top: 38px;
+}
+.LineCharities-GD-1 {
+  float: right;
+  width: calc(100% - 135px);
+  border: solid 0.5px#dadada;
+  margin-top: 14px;
+}
+.LineCharities-GD-2 {
+  float: right;
+  width: calc(100% - 185px);
+  border: solid 0.5px#dadada;
+  margin-top: 15px;
+}
+
+
+@media (max-width: 575.98px) {
+  .Your-Grant-Dashboard {
+    font-size: 29px;
+  }
+  .Grant-Per {
+    font-size: 16px;
+  }
+  .dollar-amount {
+    font-size: 20px;
+  }
+  .fa-arrow-left:before {
+    content: "\F060";
+    margin-right: 0px !important;
+  }
+  .VIEW-ALL-GRANT {
+    width: 529px;
+    height: 60px;
+    padding-top: 19px;
+  }
+  .fa-arrow-right:before {
+    content: "\F061";
+    margin-left: 0px !important;
+  }
+  .circleText {
+    position: relative;
+    top: 10px;
+  }
+  .LineCharities-GD-1, .LineCharities-GD, .LineCharities-GD-2{
+    display: none;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .Your-Grant-Dashboard{
+    font-size: 30px;
+  }
+  .SectionHeading {
+    font-size: 36px;
+  }
+  /* .LineCharities-GD-1, .LineCharities-GD, .LineCharities-GD-2{
+    display: none;
+  } */
+}
+
+@media (min-width: 1400px) and (max-width: 1499.98px){
+  /* .LineCharities-GD{
+    width: 1070px;
+  } */
+  /* .LineCharities-GD-1 {
+    width: 1115px;
+  } */
+  .LineCharities-GD-2 {
+    width: 1065px;
+  }
+}
+
+
+@media (min-width: 1500px){
+  /* .LineCharities-GD{
+    width: 1220px;
+  } */
+  /* .LineCharities-GD-1 {
+    width: 1260px;  
+  } */
+  /* .LineCharities-GD-2 {
+    width: 1205px;  
+  } */
+}

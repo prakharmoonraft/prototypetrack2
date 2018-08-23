@@ -1,0 +1,563 @@
+.Rectangle-15 {
+    background-color: #f2f2f2;
+    border: solid 1px #d9d9d9;  
+  }
+
+  .border-color{   
+    border: solid 1px #d9d9d9;  
+  }
+
+  .table th, .table td {
+    border-top:0px !important;
+  }
+  .Categories-Investment{
+    font-family: HelveticaNeueLight;
+    font-size: 13px;    
+    letter-spacing: 0.4px;
+    text-align: left;
+    padding-left: 40px !important;
+    color: #00253b !important;
+  }
+  .CategoriesPer {    
+    font-family: HelveticaNeueLight;
+    font-size: 13px;  
+    letter-spacing: 0.4px;
+    text-align: center;
+    padding-left: 95px !important;
+    color: #00253b !important;
+  }
+  .CategoriesAmt {    
+    font-family: HelveticaNeueLight;
+    font-size: 13px;  
+    letter-spacing: 0.4px;
+    text-align: center;
+    padding-left: 95px !important;
+    color: #00253b !important;
+  } 
+  .Values {    
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 35px !important;
+    color: #707070;   
+  }
+
+  .Values-5000 {    
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    position: relative;
+    left: 35px;
+    color: #707070;   
+  }
+
+  .Values-Investment {    
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    text-align: left;
+    padding-left: 44px !important;
+    color: #818181;   
+  }
+
+  .Values-Available-Balanace{
+    font-family: HelveticaNeueLight;
+    font-size: 13px; 
+    letter-spacing: 0.4px;
+    text-align: left;
+    padding-left: 40px !important;
+    color: #00253b !important;
+  }
+
+  td> .Rectangle-input {    
+    position: relative;
+    left: 48%;
+    padding: 4px;
+    border: solid 1px #c7c2c2 !important;
+  }
+  td> .Rectangle-input-A {
+    position: relative;
+    left: 50%;
+    padding: 4px;
+    border: solid 1px #c7c2c2 !important;
+}
+  .Left-Padding-3{
+    padding-left: 15px;
+  }
+
+  .Left-Padding{
+    padding-left: 45px;
+  }
+
+
+  .Expand {
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: 0.4px;
+    text-decoration: underline;
+    color: #00a3a7 !important;
+  }
+
+  .layer-per {
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    padding: 0px 27px;
+    text-align: center;
+    color: #707070;
+    position: relative;
+    bottom: 3px;
+}
+
+.layer-Date{
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  padding-left: 9px;
+  padding-right: 30px;
+  position: relative;
+    left: 5px;
+  text-align: center;
+  color: #707070;
+  }
+
+.Total {
+  font-family: HelveticaNeue;
+  font-size: 17px;
+  letter-spacing: 0.6px;
+  color: #00243d !important;    
+  border-top:14px !important; 
+}
+
+.TotalValues {
+  font-family: HelveticaNeueLight;
+  font-size: 18px;
+  letter-spacing: 0.6px;
+  border-top: 1px !important ;
+  text-align: center;
+  padding-left: 95px !important;
+  color: #00243e;
+}
+
+.TotalValuesEnd {
+  font-family: HelveticaNeueLight;
+  font-size: 18px;
+  letter-spacing: 0.6px;
+  text-align: left;
+  position: relative;
+  left: 20px;
+  color: #00243e !important;
+}
+ 
+.Overflow{
+  overflow-x: scroll !important; 
+}
+.total-line{
+  height: 20px;
+  width:20px;
+   border-bottom: 1px solid #000; 
+}
+.Line-3 {   
+  width: calc(100% - 75px);
+  border: solid .5px #f3f3f3;
+  position: relative;
+  bottom: 93px;
+  left: 35px;
+}
+
+.Line-4-T {   
+  width: calc(100% - 65px);
+  border: solid .5px #f3f3f3;
+  position: relative;
+  bottom: 64px;
+  left: 35px;
+}
+
+.if_add_370092 {
+  width: 15px !important;
+  height: 15px !important;
+}
+
+@media (max-width: 575.98px) {
+
+td> .Rectangle-input {
+  position: relative;
+  left: 73px;
+  border: solid 1px #c7c2c2 !important;
+}
+
+td> .Rectangle-input-A {
+  position: relative;
+  left: 66px;
+  border: solid 1px #c7c2c2 !important;
+}
+
+.Values-Available-Balanace {
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: bold !important;
+  letter-spacing: 0.4px;
+  text-align: left;
+  padding-left: 50px !important;
+  color: #00253b !important;
+}
+
+.Line-3 {
+  display: none;
+}
+
+TotalValues {
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: 1000;
+  letter-spacing: 0.6px;
+  border-top: 1px !important;
+  text-align: center;
+  padding-left: 59px;
+  color: #00243e;
+}
+}
+
+
+/*********************************************************************/
+/*Grant table*/
+.table-border{  
+  border: unset;
+  background-color: #ffffff;
+}
+.table-head-Name {
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #002738;
+}
+.table-data {
+  font-family: HelveticaNeueThin;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #818181;
+}
+.table-i {
+  padding-left: 124px;
+}
+.table-i-84 {
+  padding-left: 123px;
+}
+.table-i-41 {
+  padding-left: 80px;
+}
+
+.Line-gt-1 {
+  position: relative;
+  bottom: 180px;
+  left: 34px;
+  width: 899px;
+  border: solid 1px #f2f2f2;
+}
+.Line-gt-2 {
+  position: relative;
+  bottom: 142px;
+  left: 34px;
+  width: 899px;
+  border: solid 1px #f2f2f2;
+}
+.Line-gt-3 {
+  position: relative;
+  bottom: 103px;
+  left: 34px;
+  width: 899px;
+  border: solid 1px #f2f2f2;
+}
+.Line-gt-4 {
+  position: relative;
+  bottom: 65px;
+  left: 34px;
+  width: 899px;
+  border: solid 1px #f2f2f2;
+}
+.Line-gt-5 {
+  position: relative;
+  bottom: 23px;
+  left: 34px;
+  width: 899px;
+  border: solid 1px #f2f2f2;
+}
+.table-bordered td, .table-bordered th {
+  border: 1px solid #dee2e6;
+  border-top-color: rgb(222, 226, 230);
+  border-top-style: solid;
+  border-top-width: 1px !important;
+  border-right-color: rgb(222, 226, 230);
+  border-right-style: solid;
+  border-right-width: 0px !important;
+  border-bottom-color: rgb(222, 226, 230);
+  border-bottom-style: solid;
+  border-bottom-width: 1px !important;
+  border-left-color: rgb(222, 226, 230);
+  border-left-style: solid;
+  border-left-width: 0px !important;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+}
+
+.table-padding{
+  padding: 20px 55px !important;
+
+}
+
+.table-bordered {
+  border: 0px !important;
+}
+
+
+
+@media (max-width: 575.98px) {
+  .table-padding {
+    padding: 20px 22px !important;
+  }
+
+  .Left-Padding {
+      padding-left: 15px;
+    }
+
+    .Line-3 {
+      display: none;
+    }
+
+    .TotalValues {
+      padding-left: 105px;
+ }
+ .layer-per-4 {  
+  left: 84px !important;
+}
+ 
+
+
+ 
+  
+}
+@media (min-width: 576px) and (max-width: 768.98px)  
+{
+  .layer-per {
+    padding: 0px 30px 0px 13px;
+  }
+  .Values-Available-Balanace {
+    padding-left: 40px !important;
+  }
+  td> .Rectangle-input {
+    position: relative;
+    left: 60px;
+  }  
+  td> .Rectangle-input-A {
+    position: relative;
+    left: 58px;
+  }
+  .Left-Padding {
+    padding-left: 20px;
+  }
+
+  .Line-3{
+    display: none;
+  }
+
+  .Values-5000 {    
+    left: 22px;   
+  }
+}
+
+@media (min-width: 768px) and (max-width: 829.98px) {
+  .layer-per {
+    padding: 0px 30px 0px 13px;
+  }
+  .Values-Available-Balanace {
+    padding-left: 40px !important;
+  }
+  td> .Rectangle-input {
+    position: relative;
+    left: 80px;
+  }  
+  td> .Rectangle-input-A {
+    position: relative;
+    left: 80px;
+  }
+  .Left-Padding {
+    padding-left: 20px;
+  }
+  .layer-per-4 {  
+    left: 84px !important;
+  }
+}
+
+@media (min-width: 830px) and (max-width: 859.98px) {
+  .layer-per {
+    padding: 0px 30px 0px 13px;
+  }
+  .Values-Available-Balanace {
+    padding-left: 40px !important;
+  }
+  td> .Rectangle-input {
+    position: relative;
+    left: 60px;
+  }  
+  td> .Rectangle-input-A {
+    position: relative;
+    left: 68px; 
+  }
+  .Left-Padding {
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 860px) and (max-width: 899.98px) {
+  .layer-per {
+    padding: 0px 30px 0px 13px;
+  }
+  .Values-Available-Balanace {
+    padding-left: 40px !important;
+  }
+  td> .Rectangle-input {
+    position: relative;
+    left: 65px;
+  }  
+  td> .Rectangle-input-A {
+    position: relative;
+    left: 72px; 
+  }
+  .Left-Padding {
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 929.98px) {
+  .layer-per {
+    padding: 0px 30px 0px 13px;
+  }
+  .Values-Available-Balanace {
+    padding-left: 40px !important;
+  }
+  td> .Rectangle-input {
+    position: relative;
+    left: 75px;
+  }  
+  td> .Rectangle-input-A {
+    position: relative;
+    left: 80px; 
+  }
+  .Left-Padding {
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 930px) and (max-width: 979.98px) {
+  .layer-per {
+    padding: 0px 30px 0px 13px;
+  }
+  .Values-Available-Balanace {
+    padding-left: 40px !important;
+  }
+  td> .Rectangle-input {
+    position: relative;
+    left: 80px;
+  }  
+  td> .Rectangle-input-A {
+    position: relative;
+    left: 85px; 
+  }
+  .Left-Padding {
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1099.98px){
+  .Values-Available-Balanace {
+    padding-left: 40px !important;
+  }
+  td> .Rectangle-input {
+    position: relative;
+    left: 67px;
+  }  
+  td> .Rectangle-input-A {
+    position: relative;
+    left: 67px; 
+  }
+  .Left-Padding {
+    padding-left: 20px;
+  }
+
+  .Values-5000 {    
+    left: 60px;   
+  }
+
+  .TotalValues {
+       padding-left: 105px;
+  }
+  
+  .TotalValuesEnd {    
+    padding-left: 65px !important;
+  }
+}
+
+@media (min-width: 1023px) and (max-width: 1199.98px){
+  .TotalValuesEnd {    
+    padding-left: 69px !important;
+    left: 0px;
+  }
+
+  .TotalValues{
+    padding-left: 80px !important;
+  }
+}
+
+
+@media (min-width: 1400px) and (max-width: 1499.98px){
+td> .Rectangle-input {    
+  position: relative;
+  left: 105px;
+  border: solid 1px #c7c2c2 !important;
+}
+td> .Rectangle-input-A {
+  position: relative;
+  left: 105px;
+  border: solid 1px #c7c2c2 !important;
+}
+.Line-3 {
+  /* width: 925px; */
+  border: solid .5px #f3f3f3;
+  position: relative;
+  bottom: 93px;
+  left: 35px;
+}
+
+.Left-Padding{
+  padding-left: 100px;
+}
+}
+
+@media (min-width: 1500px){
+  td> .Rectangle-input {    
+    position: relative;
+    left: 126px;
+    border: solid 1px #c7c2c2 !important;
+  }
+  td> .Rectangle-input-A {
+    position: relative;
+    left: 126px;
+    border: solid 1px #c7c2c2 !important;
+  }
+  .Line-3 {
+    /* width: 1000px; */
+    border: solid .5px #f3f3f3;
+    position: relative;
+    bottom: 93px;
+    left: 35px;
+}
+
+}

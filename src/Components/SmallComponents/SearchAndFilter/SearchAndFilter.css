@@ -1,0 +1,27 @@
+/*section-2*/
+.InnerTerm{
+  font-family: HelveticaNeueLight;
+  font-size: 13px;
+  line-height: 1.65;
+  color: #9b9b9b;
+  border-radius: unset;
+  letter-spacing: 0.75px;
+}
+.pb-10{
+  padding: 8px 15px;
+}
+
+.SearchIcon{
+  float: right;
+  color: #c7c7c7;
+  position: relative;
+  bottom: 26px;
+  right: 10px;
+}
+
+@media (max-width: 575.98px) { 
+  .sf-px-0{
+    padding: 0px;
+    margin-bottom: 15px;
+  }
+}

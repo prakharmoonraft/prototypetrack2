@@ -1,0 +1,55 @@
+.line-behind-oval-blue {
+  width: 33%;
+  border-top: solid 2px #007b8d;
+  position: static;
+  margin: -2px 0px 0px 0px;
+}
+.mt-80{
+  margin-top: 80px;
+}
+
+.Investment-Preferenc {  
+  font-family: HelveticaNeueMedium;
+  font-size: 12px; 
+  letter-spacing: 0.4px;
+  color: #002639;
+  padding-bottom: 6px;   
+}
+.drop-pos{
+  position: relative;
+  left: 12px;
+}
+.h-68{
+  height : 68% !important;
+}
+
+
+@media (max-width: 575.98px) { 
+  .w-93{
+    width: 93%;
+  }
+  .Investment-Preferenc { 
+    margin-left: 70px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px)  
+{
+  .Investment-Preferenc { 
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1199.98px) and (min-width: 768px){
+  padding-top: 16px;
+}
+
+
+@media (min-width: 1400px) and (max-width: 1499.98px){
+  .line-behind-oval-blue {
+    width: 100px;
+    border-top: solid 2px #007b8d ;
+    position: static;
+    margin: -2px 0px 0px 50px;
+  }
+}

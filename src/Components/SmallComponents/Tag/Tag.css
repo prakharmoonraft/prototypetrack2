@@ -1,0 +1,45 @@
+/*section-2*/
+
+.Rectangle-tag {
+  width: 120px;
+  height: 32px;
+  border-radius: 20px;
+  background-color: #dfdfdf;
+  border: solid 1px #9b9b9b;
+  padding-top: 7px;
+}
+.w-14 {
+  width: 14%;
+}
+.Churche {
+  font-family: HelveticaNeueLight;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #6f6f6f;
+}
+.tag-cross {
+  width: 8.5px;
+  height: 8.5px;
+  margin-top: 5px;
+}
+.add_tag{
+  width: 32px;
+  height: 32px;
+}
+
+@media (max-width: 575.98px){
+  .Rectangle-tag {
+    padding-top: 6px;
+  }
+  .w-14 {
+    width: 48% !important;  
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .w-14 {
+    width: 20%;
+  }
+}

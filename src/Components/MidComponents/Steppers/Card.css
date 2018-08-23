@@ -1,0 +1,168 @@
+.Shadow{
+  box-shadow: -10px 5px 20px #f5f5f5 !important;   
+}
+
+.Step-2-Grant-Alloca {
+   
+    font-family: HelveticaNeue;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    text-align: center;
+    color: #007e90 !important;
+    margin-bottom: 24px !important;
+  }
+  
+  .Step-2-Grant-Alloca .text-style-1 {
+    color: #818181;
+  }
+
+  .Start-allocating-Fun {    
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    text-align: center;
+    color: #818181 !important;
+    margin-bottom: 29px !important;
+
+  }
+  .Oval-9 {
+    width: 53px;
+    height: 53px;
+    background-color: #00dbc8 !important;
+    border-radius: 50%;
+  } 
+   
+.line-behind-oval-blue {
+  width: 134px;
+  border-top: solid 2px #00dbc8;
+  position: static;
+  margin: -3px 0px 0px 50px;
+}
+  .layer_1 {
+    width: 12px;
+    height: 23px;
+    font-family: HelveticaNeue;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    padding-top: 12px;
+    padding-left: 21px;
+    text-align: center;
+  }
+
+
+
+  .Oval-9-outer {
+    width: 77px;
+    height: 77px;
+    background-color: #94e4df;
+    border-radius: 50%;
+    margin: -9px;
+    padding:1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 0 0 6px 3px rgba(180, 180, 180, 0.13) !important;
+  }
+
+  .Oval-9-center {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;    
+    margin:6px;
+    padding:1px;
+    background-color: #5cdad2 !important;
+  }
+
+  .Oval-9-Gradient {
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    margin:5px;
+    background-image: linear-gradient(225deg, #007b8d, #20dac8) !important;
+  }
+
+.Oval-9-3_4 {
+    width: 53px;
+    height: 53px;
+    background-color: #f2f2f2 !important;
+    border-radius: 50%;
+
+  } 
+
+  .layer-3_4{
+    width: 12px;
+    height: 23px;
+    font-family: HelveticaNeue;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color:#818181 !important;
+    padding-top: 12px;
+    padding-left: 21px;
+    text-align: center;
+  }
+
+  .layer_2 {
+    width: 14px;
+    height: 28px;
+    font-family: HelveticaNeue;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    color: #ffffff !important;
+    text-align: center;
+    padding-top: 8px;
+    padding-left: 20px;
+  }
+
+
+
+  .Investment-Preferenc {
+    
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    font-weight: 300;   
+    letter-spacing: 0.4px;
+    color: #818181;
+    padding-top: 23px;
+    padding-bottom: 6px;    
+    position: relative;
+    left: 5px;
+  }
+
+  
+
+  .Triangle-2 {
+    width: 6.4px;
+    height: 4.3px;
+    border-radius: 1px;
+    background-color: #022737;
+  }
+
+
+.overflow{
+  overflow-x: auto;
+  margin: 0 auto !important; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px;
+}
+
+.mt-40{
+  margin-top: 40px;
+}
+  
+.line-behind-oval {
+  width: 421px;
+  border-top: solid 2px #f2f2f2;
+  position: static;
+  margin: -31px 0px 0px 50px;
+}
+
+.card{
+  border-radius: 0px !important;
+}
+
+.tablePadding{
+  padding-right: 38px !important;
+  padding-left: 38px !important;
+}

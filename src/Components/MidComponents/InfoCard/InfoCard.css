@@ -1,0 +1,126 @@
+/*WELCOME's Card*/ 
+.Black {
+  width: 148px;
+  height: 30px;
+  background-color: #022737;
+  position: relative;
+  top: 14px;
+  z-index: 1;
+  text-align: center;
+}
+.Silver {
+  width: 91px;
+  height: 30px;
+  background-color: #d3dadd;
+  position: relative;
+  top: 15px;
+  z-index: 1;
+  text-align: center;
+}
+.Gold {
+  width: 88px;
+  height: 30px;
+  background-color: #e9d3aa;
+  position: relative;
+  top: 14px;
+  z-index: 1;
+  text-align: center; 
+}
+.StarText{
+  font-family: HelveticaNeueThin;
+  font-size: 10px; 
+  letter-spacing: 1.3px;
+  color: #022737;
+}    
+.card-tag{
+  font-family: HelveticaNeueThin;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  color: #818181; 
+}
+.card-head{
+  font-family: HelveticaNeueThin;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: 1.2px;
+  color: #022737;
+}
+.Rectangle-Gray1 {
+  width: 107px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: #f2f2f2;
+}
+.Rectangle-Gray {
+  width: 130px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: #f2f2f2;
+} 
+.card-location{
+  font-family: HelveticaNeueThin;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #022737;
+}
+.card-para{
+  font-family: HelveticaNeueThin;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #818181;
+}
+.card-money{
+  font-family: HelveticaNeueLight;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #818181;
+}
+.receipt{
+  width: 16px;
+  height: 16px;
+}
+.profile{
+  width: 13.3px;
+}
+
+/*Grant*/
+.Rectangle-16 {
+  width: 188px;
+  height: 51px;
+  text-align: center;
+  background-image: linear-gradient(255deg, #007b8d, #20dac8);
+  position: relative;
+  bottom: 26px;
+}
+.Rectangle-16:hover{
+  box-shadow: 0 8px 16px 4px rgba(0,0,0,0.2);
+}
+
+.Grant {
+  font-family: HelveticaNeueLight;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.88;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.RotatedArrow{
+  width: 14px;
+  height: 14px;
+  margin: -5px 0px 0px 10px;
+}
+
+@media (max-width: 575.98px) {
+  .Rectangle-16 {
+    width: 100%;
+  }
+}

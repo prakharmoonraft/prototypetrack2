@@ -1,0 +1,95 @@
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  padding-top: 0px !important;
+  padding-right: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.Rectangle-7 {
+  width: 91px;
+  height: 30px;
+  background-color: #d3dadd;
+  position: relative;
+  top: -15px;
+  left: -1px;
+  z-index: 1;
+}
+
+.SILVER {
+  font-family: HelveticaNeueLight;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #022737;
+  padding-top: 8px;
+  text-align: center;
+}
+
+.marginLeft{
+  margin-left: 4px;
+}
+
+.Churches {
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  color: #818181;
+  padding-top: 0px;
+}
+.Jewish-Social-Servic {
+  font-family: HelveticaNeue;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: 1.2px;
+  color: #022737;
+}
+.Rectangle-6 {
+  width: 106px;
+  height: 24px;
+  border-radius: 15px;
+  background-color: #e2e2e2;    
+  padding-right: 17px;
+  padding-left: 17px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.Rockville-MD {
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #022737 ;
+}
+.Montgomery-County-M {
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #818181;    
+  margin-top: 12px;    
+  margin-bottom: 18px;
+}
+.amount {
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #022737;
+  margin-right: 22.4px;
+}
+.if_header-account-image-line_1540176 {
+  width: 13.3px;
+  height: 16.4px;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .Line-3 {
+    display: none;
+  }
+}

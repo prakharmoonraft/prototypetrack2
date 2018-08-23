@@ -1,0 +1,73 @@
+.HeaderPosition {
+    padding-top: 15px;
+    position: absolute;
+    left: 50.5%;
+}
+.logo{
+    width: 149px;
+    margin-left: -15px;
+}
+
+.nav-link {
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #a3a3a3 !important;
+}
+
+.nav-link:focus, .nav-link:hover {
+    font-family: HelveticaNeue;
+    font-size: 14px;    
+    letter-spacing: 1px;
+    color: #003e47 !important;
+}
+.nav-item-space{
+    margin-right: 9.5%;
+}
+
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+    .nav-item-space {
+        margin-right: 0.5px;
+    }
+    .nav-link {
+        font-size: 12px;
+    }
+    .navbar {
+        padding: 10px 0px 10px 0px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1259.98px) {
+    .nav-item-space {
+        margin-right: 24px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .logo{
+        margin-left: -33px;
+    }
+    .menuButton{
+        margin-right: -33px;
+    }
+    .HeaderPosition {
+        padding-top: 15px;
+        margin-left: 2%;
+        position: unset;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1499.98px){
+    .logo{
+        margin-left: -25px;
+    }
+}
+
+
+@media (min-width: 1500px){
+    .logo{
+        margin-left: -25px;
+    }
+} 

@@ -1,0 +1,208 @@
+
+/*TOP*/
+.Welcome-to-vanguard {
+  font-family: HelveticaNeueThin;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 1.8px;
+  color: #007b8f;
+}
+
+  /*section 1*/
+.Build-your-Philantho {
+  font-family: HelveticaNeueThin;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 1.04;
+  letter-spacing: 0.5px;
+  color: #00233e;
+}
+
+.Rectangle-tag {
+  width: 119px;
+  height: 32px;
+  border-radius: 20px;
+  background-color: #dfdfdf;
+  border: solid 1px #9b9b9b;
+  padding-top: 7px;
+}
+.Rectangle-tag-Education  {
+  position: relative;
+  width: 18%;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #dfdfdf;
+  border: solid 0.5px #9b9b9b;
+  padding-left: 15px;
+  padding-top: 3px;
+  bottom: -37px;
+}
+.Rectangle-tag-Religious {
+  position: relative;
+  width: 29.5%;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #dfdfdf;
+  border: solid 0.5px #9b9b9b;
+  padding-left: 15px;
+  padding-top: 3px;
+  bottom: -37px;
+}
+.tag-cross-w {
+  width: 8.5px;
+  height: 8.5px;
+  margin-top: 8px;
+  margin-right: 6px;
+  float: right;
+}
+
+.Path-top {
+  width: calc(100% - 395px);
+  border: solid 0.5px #dadada;
+  float: right;
+  margin-top: 12px;
+}
+.Path-top-2 {
+  width: calc(100% - 155px);
+  border: solid 0.5px #dadada;
+  float: right;
+  margin-top: 12px;
+}
+.LineCharities-wc {
+  float: right;
+  width: calc(100% - 440px);
+  border: solid 0.5px #dadada;
+  margin-top: 39px;
+}
+
+.Rectangle-3 {
+  width: 464.5px;
+  height: 56px;
+  background-image: linear-gradient(264deg, #007b8d, #20dac8);
+  text-align: center;
+  color: #ffffff;
+  padding-top: 15px;
+}
+
+
+@media (max-width: 575.98px) { 
+  .Welcome-to-vanguard {
+    font-size: 32px;
+  }
+  .LineCharities-wc{
+    display: none;
+  }
+  .Build-your-Philantho {
+    font-size: 23px;
+  }
+  .Path-top {
+   display: none;
+  }
+  .Path-top-2 {
+    display: none;
+  }
+  .pl-xs-5 {
+    padding-left: 0.6rem!important; 
+  }
+  .px-xs-5 {
+    padding-left: 0.6rem!important;
+    padding-right: 0.6rem!important;
+  }
+  .Line{
+    display: none;
+  }
+  .Rectangle-3 {
+    width: 345px;
+  }
+  .Rectangle-tag-Education  {
+    bottom: 0px;
+    width: 31%;
+  }
+  .Rectangle-tag-Religious {
+    bottom: 0px;
+    width: 54%;
+    left: 12%;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 899.98px) {
+  /* .LineCharities-wc{
+    display: none;
+  } */
+  .Welcome-to-vanguard{
+    font-size: 25px;
+  }  
+  .Rectangle-tag-Education  {
+    width: 28%;
+  }
+  .Rectangle-tag-Religious {
+    width: 47%;
+  }
+}
+  @media (min-width: 900px) and (max-width: 1199.98px) {
+  .Rectangle-tag-Education  {
+    width: 19%;
+  }
+  .Rectangle-tag-Religious {
+    width: 32%;
+  }
+  /* .Path-top-2 */
+  /* .Path-top,{
+    display: none;
+  } */
+}
+
+
+
+@media (min-width: 1400px) and (max-width: 1499.98px){
+  /* .Path-top{
+    width: 615px;
+  } */
+  /* .Path-top-2{
+    width: 830px;
+  } */
+  /* .LineCharities-wc {
+    width: 900px;  
+  } */
+  .tag-cross-w {
+    width: 8.5px;
+    height: 8.5px;
+    margin-top: 8px;
+    margin-right: 13px;
+    float: right;
+  }  
+  .Rectangle-tag-Education  {
+    width: 110px;
+  }
+  .Rectangle-tag-Religious {
+    width: 180px;
+  }
+}
+
+
+@media (min-width: 1500px){
+  /* .Path-top{
+    width: 763px;
+  } */
+  /* .Path-top-2{
+    width: 985px;
+  } */
+  /* .LineCharities-wc {
+    width: 1050px;  
+  } */
+  .tag-cross-w {
+    width: 8.5px;
+    height: 8.5px;
+    margin-top: 8px;
+    margin-right: 13px;
+    float: right;
+  }
+  .Rectangle-tag-Education  {
+    width: 110px;
+  }
+  .Rectangle-tag-Religious {
+    width: 180px;
+  }
+}

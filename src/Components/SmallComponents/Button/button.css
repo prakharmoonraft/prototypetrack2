@@ -1,0 +1,11 @@
+.success-outline{
+    width: 280px;
+    height: 50px;
+    border-radius: unset;
+    border-color: unset;
+    background-image: linear-gradient(260deg, #007b8d, #20dac8);
+}
+.success-outline:hover{
+    color:  #ffffff;
+    box-shadow: 0 0 25px 15px rgba(232, 232, 232, 0.5);
+}

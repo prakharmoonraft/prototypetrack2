@@ -1,0 +1,28 @@
+.footer{
+    background-color: #f5f5f5;
+}
+.footer-items {
+    font-family: HelveticaNeueLight;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #9b9b9b;
+}
+.copyright{
+    font-family: HelveticaNeueLight;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #9b9b9b;
+}
+
+
+@media (max-width: 576px){
+    .imgcenter{
+        text-align: center;
+    }
+    .footer-items {
+        font-size: 13px;
+    }
+    .pt-media-2{
+        padding-top: 1rem;
+    }
+}
