@@ -20,7 +20,7 @@ export default class GrantDashBoard extends Component {
             <div className="">
                 <Row className="BgImage">
                     <Col>
-                        <Header />
+                        <Header active={1} />
                         <Row className="mt-5 ContentMiddle paddingX">
                             <Col className="px-md-0">
                                 <p className="Your-Grant-Dashboard">Your grant dashboard</p>

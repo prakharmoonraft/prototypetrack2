@@ -74,6 +74,9 @@ export default class Step2 extends Component {
                                             <div className="Input-Heading">Investment preference</div>
                                             <Input className="BRadius Input-text-su1 DownCaret h-68 w-93" type="select">
                                                 <option >My preference 1</option>
+                                                <option >My preference 2</option>
+                                                <option >My preference 3</option>
+                                                <option >My preference 4</option>
                                             </Input>
                                         </Col>
                                     </Row>

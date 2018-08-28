@@ -184,7 +184,7 @@ export default class SignUp3 extends Component {
                                         </Col>
                                     </Row>
 
-                                    <Row className="py-4 px-md-5 px-3 account">
+                                    <Row className="py-5 px-md-5 px-3 account">
                                         <Col md="" className="">
                                             <span className="Basic-Information">Account details </span>
                                             <div className="Line-4-su3-2"></div>

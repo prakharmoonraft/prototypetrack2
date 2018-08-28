@@ -112,6 +112,8 @@ tr.hr-line td hr {
     bottom: 19px;
     left: 772px; */
     font-weight: 100;
+    position: relative;
+    bottom: 15px;
 }
 .Line-su1-su3 {
     width: 1093px;

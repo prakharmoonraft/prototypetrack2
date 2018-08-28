@@ -5,11 +5,16 @@ import './header.css';
 export default class Footer extends Component {
 	constructor(props) {
 		super(props);
-
-		this.toggle = this.toggle.bind(this);
 		this.state = {
 			isOpen: false
 		};
+		this.toggle = this.toggle.bind(this);
+	}
+	componentDidMount() {
+		if (this.props.active !== undefined && this.props.active !== null) {
+			var a = document.querySelectorAll('.nav-link');
+			a[this.props.active].classList.add('active');
+		}
 	}
 	toggle() {
 		this.setState({
@@ -21,10 +26,10 @@ export default class Footer extends Component {
 			<div className="ContentMiddle paddingX p-xs-10 pt-3 mb-5">
 				<Navbar expand="md" light >
 					<NavbarBrand href="/newconcept"><img src={require('../../assets/images/logo.png')} className="img-responsive logo" /></NavbarBrand>
-					<NavbarToggler onClick={this.toggle} className="mt-4 menuButton"/>
+					<NavbarToggler onClick={this.toggle} className="mt-4 menuButton" />
 					<Collapse isOpen={this.state.isOpen} navbar>
 						<Nav className="HeaderPosition" navbar>
-							<NavItem className="nav-item-space">
+						<NavItem className="nav-item-space">
 								<NavLink href="/newconcept">Dashboard</NavLink>
 							</NavItem>
 							<NavItem className="nav-item-space">

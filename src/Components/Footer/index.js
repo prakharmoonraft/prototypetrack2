@@ -9,9 +9,9 @@ export default class Footer extends Component {
 				<Row className="footer">
 					<Col>
 						<Row className="ContentMiddle paddingX py-4">
-							<Col className="">
+							<Col>
 								<Row >
-									<Col md="4" className="p-md-4 p-3 imgcenter">
+									<Col md="4" className="pt-md-5 p-3 imgcenter">
 										<img src={require('../../assets/images/logo.png')} className="img-responsive logo" />
 									</Col>
 									<Col md="8" className="p-md-5 p-4">

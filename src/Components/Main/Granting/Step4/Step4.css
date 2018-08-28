@@ -41,11 +41,6 @@
 .wrap{
   white-space:nowrap !important;
 }
-.ml-24{
-  margin-left: 24px !important;
-  margin-right: 24px !important;
-}
-
 .Line-g {
   width: 778px;
   border: solid px #ebebeb;
@@ -125,7 +120,7 @@
     color: #818181;
     position: relative;
     bottom: 3px;
-    left: 103px;
+    left: 110px;
 }
 /*Ovals*/
 

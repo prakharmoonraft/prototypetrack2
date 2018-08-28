@@ -1,0 +1,263 @@
+
+h6, p{
+  margin: unset;
+  }
+
+  .w-135{
+    width: 135%;
+  }
+  .w-121-5{
+    width: 121.5%;
+  }
+
+
+      
+/*TOP*/
+.Set-up-your-vanguard {
+  font-family: HelveticaNeue;
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 1.2px;
+  color: #017e8f;
+}
+
+.VCEP0012346 {
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  color: #4a4a4a;
+  margin-bottom: 15px;
+}
+.Number-1-4{
+  position: absolute;
+  top: 12px;
+  right: 112px;
+}
+.layer {
+  font-family: HelveticaNeue;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+  color: #a5a5a5;
+}
+
+.layer-text-style-1 {
+  font-family: HelveticaNeue;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+  color: #007b8e;
+}
+
+/*First Card*/
+
+.Provide-your-basic-i {
+  font-family: HelveticaNeue;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+  color: #007b8e;
+  padding: 30px 30px 10px 30px;
+}
+
+.w-83{
+  width: 808px;
+}
+
+.Rectangle-8 {
+  width: 205px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  margin-top: 20px;    
+}
+
+.Add-Acount-Advisor {
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  color: #113443;  
+  padding: 12px 0px 12px 25px;
+}
+.Blue-Circle{
+    width: 38px;
+    height: 38px;
+    color: white;
+    background-color: #017E8F;
+    border-radius: 50%;
+    padding: 12px;
+    position: relative;
+    bottom: 28px;
+    left: 140px;
+}
+
+/*Second Card*/
+.Rectangle {
+  background-color: #f0f6f6;
+}
+.Craft-your-legacy {
+  font-family: HelveticaNeue;
+  letter-spacing: 0.6px;
+  color: #022737;
+}
+.dolor-sit-amet-cons {
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  color: #022737;
+}
+
+.percentage{
+  position: absolute;
+  left: 85%;
+  top: 300px;
+}
+.Percentage-Input{
+  width: 68px;
+  height: 25px;
+  border-radius: 5px;
+  border: solid 1px #c0c0c0;
+  position: absolute;
+  bottom: 10px;
+  right: 87px;
+}
+
+.Path-30 {
+  border: solid 1px #ffffff;
+  margin: 8px 0px 20px;
+}
+.dolor-sit-multi {
+  width: 662px;
+  height: 32px;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  color: #022737;
+}
+
+.Rectangle-2-Copy-2 {
+  margin-top: -1rem;
+  width: 1021.5px;
+  height: 61px;
+  background-image: linear-gradient(266deg, #007b8d, #20dac8);
+}
+.Create-account {
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;  
+  padding: 12px 0px;
+}
+
+
+/*********************************************************************/
+/*SECOND PAGE*/
+
+/*3rd card*/
+.Question {
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  color: #022737;
+}
+
+.Question-Rectangle {
+  border-radius: 20px;
+  background-color: #f0f6f6;
+}
+.Answer {
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: #022737;
+}
+
+
+
+
+/*********************************************************************/
+/*THIRD PAGE*/
+
+.Basic-information {
+  width: 211px;
+  height: 25px;
+  font-family: HelveticaNeue;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.04;
+  letter-spacing: 0.5px;
+  color: #00253c;
+}
+.Line-4 {
+  float: right;
+  margin-top: 14px;
+  width: 765px;
+  border: solid 1px #ebebeb;
+}
+
+.Field {
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: 600;
+  color: #00253b;
+}
+.Value {
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  color: #818181;
+}
+
+.Line-5 {
+  width: 900px;
+  height: 1px;
+  border: solid 1px #ebebeb;
+}
+.percentage-3 {
+  position: absolute;
+  left: 87%;
+  top: 525px;
+}
+.dolor{
+  width: 662px;
+  height: 32px;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #022737;
+}
+.Percentage-Value{
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  color: #022737;
+  position: absolute;
+  bottom: 10px;
+  right: 87px;
+}
+
+.Line-6{
+  float: right;
+  margin-top: 14px;
+  width: 835px;
+  height: 3px;
+  border: solid 1px #ebebeb;
+}
+.Path-30-3{
+  border: solid 1px #f0f0f0;
+  margin: 8px 0px 12px;
+}
+.form-group {
+  margin-bottom: unset;
+}

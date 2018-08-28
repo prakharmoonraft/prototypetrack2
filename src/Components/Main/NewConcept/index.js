@@ -77,10 +77,10 @@ export default class NewConcept extends Component {
         return (
             <div>
                 <Row className="BgImage">
-                    <Col className="px-md-0">
-                        <Header />
+                    <Col className="">
+                        <Header active={0} />
                         <Row className="ContentMiddle paddingX">
-                            <Col md="6" >
+                            <Col md="6" className="pl-md-0">
                                 <div>
                                     <p className="heading mt-3">Welcome James Kennedy,</p>
                                     <p className="headingName">The Kennedy Eco Fund</p>
@@ -89,7 +89,7 @@ export default class NewConcept extends Component {
                                     <div className="View_Suggestion"><span className="View_Suggestion_Text">VIEW SUGGESTION</span><img src={require('../../../assets/images/if_arrow_right.png')} className="arrow_right_NC" /></div>
                                 </div>
                             </Col>
-                            <Col md="6" className="box-margin-top ">
+                            <Col md="6" className="box-margin-top pr-md-0">
                                 <div className="Whole_Shadow">
                                     <div className="d-flex">
                                         <div onClick={this.boxClick1} className={this.state.box1 ? " d-hidden " : "d-show "}>
@@ -180,7 +180,7 @@ export default class NewConcept extends Component {
                                             <span className="BoxClickRectangleText mr-3">VIEW ALL GRANTS</span><i class="fas fa-arrow-right BoxClickArrow"></i>
                                         </div>
                                         </div> */}
-                                        <div className="RectangleWhite">
+                                        <div className="RectangleWhite text-center">
                                             <img className="BoxAdd" src={require('../../../assets/images/add_large.png')} />
                                             <p className="BoxAdd-title">START GIVING</p>
                                         </div>
@@ -205,9 +205,9 @@ export default class NewConcept extends Component {
                             </Col>
                         </Row>
                         <Row className="ContentMiddle paddingX mt-5">
-                            <Col>
+                            <Col className="px-md-0">
                                 <Row className="">
-                                    <Col className="pr-0">
+                                    <Col className="">
                                         <span className="SectionHeading">Impact</span>
                                         <div className="LineImpact" />
                                     </Col>
@@ -243,8 +243,9 @@ export default class NewConcept extends Component {
                                                 </div>
 
                                                 <div onClick={this.handleClick1} className={this.state.condition1 ? "Hover1 d-show3C" : "d-hidden"}>
-                                                    <div className=" ml-4 ">
-                                                        <img className="CardDesignLogos mt-5" src={require('../../../assets/images/education_active.png')} />
+                                                    <div className=" ml-4 ">                                                    
+                                                        <img className="CardDesignLogos mt-5" src={require('../../../assets/images/education_active.png')} />  
+                                                        <img className="close-card mt-5" src={require('../../../assets/images/tag_cancel.png')} />                                                      
                                                         <p className="ClickCardPercentage">25%</p>
                                                         <p className="ClickCardHeading">Education</p>
                                                         <p className="ClickCardAmount">$25,000</p>
@@ -252,7 +253,7 @@ export default class NewConcept extends Component {
                                                     <div className=" ml-4 ClickCardLine" />
                                                     <div className=" ml-4 ">
                                                         <div className="d-flex">
-                                                            <div className="mr-4">
+                                                            <div className="mr-4">                                                            
                                                                 <p className="ClickCardNumbers">03</p>
                                                                 <p className="ClickCardNumbersText">Upcoming</p>
                                                             </div>
@@ -268,7 +269,7 @@ export default class NewConcept extends Component {
                                             <Card className="card1" style={{ borderTop: "unset", borderRight: "unset", borderBottom: "unset", boxShadow: "unset" }} >
                                                 <div onClick={this.handleClick2} className={this.state.condition2 ? "Hover2 d-hidden" : "d-show3C"}>
                                                     <div className="CardDesignLogos">
-                                                        <img className="CardDesignLogos ml-md-4 ml-3 mt-5" src={require('../../../assets/images/community.png')} />
+                                                        <img className="CardDesignLogos ml-md-4 ml-3 mt-5" src={require('../../../assets/images/community.png')} />                                                        
                                                     </div>
                                                     <div className="CardDesign  ml-24">
                                                         <p className="m-0 LayerPercentage">25%</p>
@@ -280,6 +281,7 @@ export default class NewConcept extends Component {
                                                 <div onClick={this.handleClick2} className={this.state.condition2 ? "Hover2 d-show3C" : "d-hidden"}>
                                                     <div className=" ml-4 ">
                                                         <img className="CardDesignLogos mt-5" src={require('../../../assets/images/community_active.png')} />
+                                                        <img className="close-card mt-5" src={require('../../../assets/images/tag_cancel.png')} />
                                                         <p className="ClickCardPercentage">25%</p>
                                                         <p className="ClickCardHeading">Community</p>
                                                         <p className="ClickCardAmount">$25,000</p>
@@ -316,6 +318,7 @@ export default class NewConcept extends Component {
                                                 <div onClick={this.handleClick3} className={this.state.condition3 ? "Hover3 d-show3C" : "d-hidden"}>
                                                     <div className=" ml-4 ">
                                                         <img className="CardDesignLogos mt-5" src={require('../../../assets/images/church_active.png')} />
+                                                        <img className="close-card mt-5" src={require('../../../assets/images/tag_cancel.png')} />
                                                         <p className="ClickCardPercentage">50%</p>
                                                         <p className="ClickCardHeading">Churches</p>
                                                         <p className="ClickCardAmount">$50,000</p>
@@ -343,13 +346,13 @@ export default class NewConcept extends Component {
                         </Row>
                         <div className="BgGrayNC p-xs-10">
                             <Row className="ContentMiddle paddingX">
-                                <Col className="pb-3 pr-0 mt-5">
+                                <Col className="pb-5 px-md-0 mt-5">
                                     <span className="SectionHeading">Charities</span>
                                     <div className="LineCharities"></div>
                                 </Col>
                             </Row>
                             <Row className="ContentMiddle paddingX">
-                                <Col className=" pb-3">
+                                <Col className="px-md-0 pb-3">
                                     <SearchAndFilter />
                                     <Tag />
                                     <InfoCard title="GRANT" />
@@ -358,7 +361,7 @@ export default class NewConcept extends Component {
                             </Row>
                         </div>
                         <Row className="ContentMiddle paddingX">
-                            <Col className="pr-md-0 my-5">
+                            <Col className="px-md-0 my-5">
                                 <span className="SectionHeading">Latest news</span>
                                 <div className="LineHead"></div>
                                 <div className="mt-4">

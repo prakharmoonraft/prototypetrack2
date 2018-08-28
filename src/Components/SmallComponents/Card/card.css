@@ -7,7 +7,7 @@
   border-radius: unset;
 }
 .card:hover {
-  box-shadow: 0 8px 16px 4px rgba(0,0,0,0.2);
+  box-shadow: 0 6px 12px 4px rgba(75, 75, 75, 0.25);
 }
 
 .Back {

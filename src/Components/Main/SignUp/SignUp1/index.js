@@ -166,13 +166,13 @@ export default class SignUp1 extends Component {
                                         <span className="ADD-ACCOUNT-ADVISOR-su1">ADD ACCOUNT ADVISOR</span>
                                     </div>
 
-                                    <Row className="pt-5 pb-4 px-md-5 px-2 ">
+                                    <Row className="pt-5 pb-5 px-md-5 px-2 ">
                                         <Col md="" className="">
                                             <span className="Basic-Information">Fund details</span>
                                             <div className="Line-4-su1-2"></div>
                                         </Col>
                                     </Row>
-                                    <Row className="my-3 pb-4 px-md-5 px-2">
+                                    <Row className="mb-3 pb-4 px-md-5 px-2">
                                         <Col md="4" className="">
                                             <Row className="font-tab">
                                                 <Col md="12" className="">
@@ -207,7 +207,7 @@ export default class SignUp1 extends Component {
                                                                 </Label>
                                                             </FormGroup>
                                                         </th>
-                                                        <td><Input className="BRadius Input-text-su1 Percentage-Input-su1 Lorem-ipsum-dolor-su1_per" type="text" name="percentage" id="examplePercentage" placeholder="25%" /></td>
+                                                        <td><Input className="BRadius  Percentage-Input-su1 Lorem-ipsum-dolor-su1_per" type="text" name="percentage" id="examplePercentage" placeholder="25%" /></td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row" className="w-83">
@@ -218,7 +218,7 @@ export default class SignUp1 extends Component {
                                                                 </Label>
                                                             </FormGroup>
                                                         </th>
-                                                        <td><Input className="BRadius Input-text-su1  Percentage-Input-su1 Lorem-ipsum-dolor-su1_per" type="text" name="percentage" id="examplePercentage" placeholder="25%" /></td>
+                                                        <td><Input className="BRadius   Percentage-Input-su1 Lorem-ipsum-dolor-su1_per" type="text" name="percentage" id="examplePercentage" placeholder="25%" /></td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row" className="w-83">
@@ -229,7 +229,7 @@ export default class SignUp1 extends Component {
                                                                 </Label>
                                                             </FormGroup>
                                                         </th>
-                                                        <td><Input className="BRadius Input-text-su1  Percentage-Input-su1 Lorem-ipsum-dolor-su1_per" type="text" name="percentage" id="examplePercentage" placeholder="25%" /></td>
+                                                        <td><Input className="BRadius   Percentage-Input-su1 Lorem-ipsum-dolor-su1_per" type="text" name="percentage" id="examplePercentage" placeholder="25%" /></td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row" className="w-83">
@@ -240,7 +240,7 @@ export default class SignUp1 extends Component {
                                                                 </Label>
                                                             </FormGroup>
                                                         </th>
-                                                        <td><Input className="BRadius Input-text-su1  Percentage-Input-su1 Lorem-ipsum-dolor-su1_per " type="text" name="percentage" id="examplePercentage" placeholder="25%" /></td>
+                                                        <td><Input className="BRadius   Percentage-Input-su1 Lorem-ipsum-dolor-su1_per " type="text" name="percentage" id="examplePercentage" placeholder="25%" /></td>
                                                     </tr>
 
                                                     <tr>
@@ -251,7 +251,7 @@ export default class SignUp1 extends Component {
                                                                 </Label>
                                                             </FormGroup>
                                                         </th>
-                                                        <td ><Input className="BRadius Input-text-su1 Percentage-Input-su1 Lorem-ipsum-dolor-su1_per" type="text" name="percentage" id="examplePercentage" placeholder="100%" /></td>
+                                                        <td ><Input className="BRadius  Percentage-Input-su1 Lorem-ipsum-dolor-su1_per" type="text" name="percentage" id="examplePercentage" placeholder="100%" /></td>
                                                     </tr>
                                                 </tbody>
 

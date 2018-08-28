@@ -15,15 +15,20 @@
     letter-spacing: 1px;
     color: #a3a3a3 !important;
 }
-
-.nav-link:focus, .nav-link:hover {
+.nav-link:hover {
+    font-family: HelveticaNeue;
+    font-size: 14px;    
+    letter-spacing: 1px;
+    color: #003e47 !important;
+}
+.active {
     font-family: HelveticaNeue;
     font-size: 14px;    
     letter-spacing: 1px;
     color: #003e47 !important;
 }
 .nav-item-space{
-    margin-right: 9.5%;
+    margin-right: 10.4%;
 }
 
 

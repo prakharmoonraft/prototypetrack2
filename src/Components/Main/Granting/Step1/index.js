@@ -79,7 +79,10 @@ export default class Step1 extends Component {
                                                         <span className="Input-Heading">Frequency</span>
                                                     </Label>
                                                     <Input className="BRadius Input-text-su1 DownCaret h-58" type="select">
+                                                        <option>Weekly</option>
                                                         <option>Monthly</option>
+                                                        <option>Yearly</option>
+                                                        
                                                     </Input>
                                                 </Col>
                                                 <Col md="4" >
@@ -87,7 +90,10 @@ export default class Step1 extends Component {
                                                         <span className="Input-Heading">Number of frequency</span>
                                                     </Label>
                                                     <Input className="BRadius Input-text-su1 DownCaret h-58" type="select">
-                                                        <option>6</option>
+                                                        <option>1</option>
+                                                        <option>5</option>
+                                                        <option>10</option>
+                                                        <option>15</option>
                                                     </Input>
                                                 </Col>
                                             </Row>
@@ -97,7 +103,7 @@ export default class Step1 extends Component {
                                                     <Input className=" BRadius Input-text-su1" name="date" id="exampleDate" placeholder="22/06/2018" >
                                                     </Input>
                                                 </Col>
-                                                <Col md="4" className="mt-2">
+                                                <Col md="4" className="mt-1">
                                                     <span className="Input-Heading mb-md-5 ">Last date</span>
                                                     <p className="layer-step-1  mt-3">12/12/2018</p>
                                                 </Col>
@@ -153,6 +159,8 @@ export default class Step1 extends Component {
                                                             <Label className=" Input-Heading">Define purpose*</Label>
                                                             <Input className="BRadius Input-text-su1 DownCaret h-58" type="select">
                                                                 <option >Charity event</option>
+                                                                <option >Education </option>
+                                                                <option >Churches </option>
                                                             </Input>
                                                         </Col>
                                                         <Col md="8" className="">

@@ -15,10 +15,10 @@ export default class SearchAndFilter extends Component {
                     <FormGroup>
                         <Input className="InnerTerm BRadius DownCaret" type="select" name="select" id="exampleSelect" >
                             <option>Filter by region</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
+                            <option>North East</option>
+                            <option>Mid Western</option>
+                            <option>South West</option>
+                            <option>North West</option>
                         </Input>
                     </FormGroup>
                 </Col>

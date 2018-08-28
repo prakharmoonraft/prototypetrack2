@@ -40,10 +40,10 @@ export default class Welcome extends Component {
                                                         <Label className="Input-Heading" for="exampleSelect" >Interest</Label>
                                                         <Input className="BRadius Input-text-su1 DownCaret h-100" type="select" name="select" id="exampleSelect" placeholder="Select from answers here">
                                                             <option>Select your interest</option>
-                                                            <option>2</option>
-                                                            <option>3</option>
-                                                            <option>4</option>
-                                                            <option>5</option>
+                                                            <option>10%</option>
+                                                            <option>25%</option>
+                                                            <option>50%</option>
+                                                            <option>100%</option>
                                                         </Input>
                                                     </FormGroup>
                                                 </Col>

@@ -173,7 +173,7 @@ export default class SignUp2 extends Component {
                                             <div className="Line-4-su2-3"></div>
                                         </Col>
                                     </Row>
-                                    <Row className="mt-3 mb-40 px-md-5 px-2">
+                                    <Row className="mt-3 pt-4 mb-40 px-md-5 px-2">
                                         <Col md="8" className="">
                                             <Row className="">
                                                 <Col md="6" className="font-tab">
@@ -181,10 +181,9 @@ export default class SignUp2 extends Component {
                                                         <Label className="Input-Heading" for="exampleSelect" >Question 1</Label>
                                                         <Input className="BRadius Input-text-su1 DownCaret h-100" type="select" name="select" id="exampleSelect" placeholder="Select from answers here">
                                                             <option>Select a question</option>
-                                                            <option>2</option>
-                                                            <option>3</option>
-                                                            <option>4</option>
-                                                            <option>5</option>
+                                                            <option>what is your Date of birth?</option>
+                                                            <option>what is the name of your first pet?</option>
+                                                            <option>What is your mothers name?</option>
                                                         </Input>
                                                     </FormGroup>
                                                 </Col>
@@ -201,10 +200,9 @@ export default class SignUp2 extends Component {
                                                         <Label className="Input-Heading" for="exampleSelect" >Question 2</Label>
                                                         <Input className="BRadius Input-text-su1 DownCaret h-100" type="select" name="select" id="exampleSelect" placeholder="Select from answers here">
                                                             <option>Select a question</option>
-                                                            <option>2</option>
-                                                            <option>3</option>
-                                                            <option>4</option>
-                                                            <option>5</option>
+                                                            <option>what is your Date of birth?</option>
+                                                            <option>what is the name of your first pet?</option>
+                                                            <option>What is your mothers name?</option>
                                                         </Input>
                                                     </FormGroup>
                                                 </Col>
